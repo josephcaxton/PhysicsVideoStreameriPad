@@ -265,7 +265,7 @@ self.contentSizeForViewInPopover = CGSizeMake(108,400);
         //[SendMailcontroller setToRecipients:SendTo];
         [SendMailcontroller setSubject:@"Learn and revise GCSE Physics on the go - Physics App"];
         
-        [SendMailcontroller setMessageBody:[NSString stringWithFormat:@"Checkout the FREE LearnersCloud Video App loaded with quality revision videos. To download this App for iPad <a href=http://itunes.apple.com/us/app/gcse-chemistry-videos./id554591114?ls=1&mt=8> click here </a>. For iPhone <a href=http://itunes.apple.com/us/app/gcse-chemistry-videos/id555317767?ls=1&mt=8> click here</a>. Or search LearnersCloud in your device’s App store. For loads more: www.Learnerscloud.com"] isHTML:YES];
+        [SendMailcontroller setMessageBody:[NSString stringWithFormat:@"Checkout the FREE LearnersCloud Video App loaded with quality revision videos. To download this App for iPad <a href=http://itunes.apple.com/us/app/gcse-physics-videos./id557130489?ls=1&mt=8> click here </a>. For iPhone <a href=http://itunes.apple.com/us/app/gcse-physics-videos/id560454558?ls=1&mt=8> click here</a>. Or search LearnersCloud in your device’s App store. For loads more: www.Learnerscloud.com"] isHTML:YES];
         [self presentModalViewController:SendMailcontroller animated:YES];
         
 		
@@ -454,7 +454,7 @@ self.contentSizeForViewInPopover = CGSizeMake(108,400);
     
     if ([TWTweetComposeViewController canSendTweet])
     {
-        NSString *UrlString = @"http://itunes.apple.com/us/app/gcse-chemistry-videos./id554591114?ls=1&mt=8";
+        NSString *UrlString = @"http://itunes.apple.com/us/app/gcse-physics-videos./id557130489?ls=1&mt=8";
         
         TWTweetComposeViewController *tweetSheet = [[TWTweetComposeViewController alloc] init];
         [tweetSheet setInitialText:@"Checkout @LearnersCloud #GCSE Physics video app. Learn and revise Physics on the go."];

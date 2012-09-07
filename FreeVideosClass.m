@@ -392,6 +392,7 @@
     //Change how image is loaded
     //NSString *PicLocation = [[NSString alloc] initWithFormat:@"%@",[obj Thumbnail]];
     //UIImage* theImage = [UIImage imageNamed:PicLocation];
+    
     UIImage* theImage =[ImageObjects objectAtIndex:indexPath.row];
     cell.imageView.image = theImage;
     
