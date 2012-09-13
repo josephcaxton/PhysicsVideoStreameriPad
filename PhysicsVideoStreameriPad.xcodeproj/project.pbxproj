@@ -71,6 +71,9 @@
 		7C48F9C415EE14DA00DDA63D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C48F9BE15EE14DA00DDA63D /* Icon-72.png */; };
 		7C48F9C515EE14DA00DDA63D /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C48F9BF15EE14DA00DDA63D /* Icon-Small-50.png */; };
 		7C48F9C615EE14DA00DDA63D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C48F9C015EE14DA00DDA63D /* Icon.png */; };
+		7C5E8A0C15FA0D3200E4DBAC /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C48F9C115EE14DA00DDA63D /* Icon@2x.png */; };
+		7C5E8A0D15FA0D3200E4DBAC /* Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C48F9C215EE14DA00DDA63D /* Icon@2x~ipad.png */; };
+		7C5E8A0E15FA0D3200E4DBAC /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C48F9C315EE14DA00DDA63D /* iTunesArtwork.png */; };
 		7C79445215EE5342009A2EAE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C79440C15EE5342009A2EAE /* 1.png */; };
 		7C79445315EE5342009A2EAE /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C79440D15EE5342009A2EAE /* 2.png */; };
 		7C79445415EE5342009A2EAE /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C79440E15EE5342009A2EAE /* 3.png */; };
@@ -675,6 +678,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5E8A0C15FA0D3200E4DBAC /* Icon@2x.png in Resources */,
+				7C5E8A0D15FA0D3200E4DBAC /* Icon@2x~ipad.png in Resources */,
+				7C5E8A0E15FA0D3200E4DBAC /* iTunesArtwork.png in Resources */,
 				7C48F9BD15EE13A800DDA63D /* MainWindow.xib in Resources */,
 				7C48F8F515EE0E7000DDA63D /* InfoPlist.strings in Resources */,
 				7C48F92915EE0F9C00DDA63D /* FBDialog.bundle in Resources */,
