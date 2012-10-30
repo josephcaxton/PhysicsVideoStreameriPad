@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C1E111416403FE1006DF210 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1E111316403FE1006DF210 /* AVFoundation.framework */; };
 		7C37D648162D9F8300122A88 /* website_promo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D63B162D9F8100122A88 /* website_promo.png */; };
 		7C37D649162D9F8300122A88 /* website_promo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D63C162D9F8200122A88 /* website_promo@2x.png */; };
 		7C37D64A162D9F8300122A88 /* web_promo_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D63D162D9F8200122A88 /* web_promo_btn.png */; };
@@ -152,6 +153,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C1E111316403FE1006DF210 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		7C37D63B162D9F8100122A88 /* website_promo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = website_promo.png; sourceTree = "<group>"; };
 		7C37D63C162D9F8200122A88 /* website_promo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "website_promo@2x.png"; sourceTree = "<group>"; };
 		7C37D63D162D9F8200122A88 /* web_promo_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_promo_btn.png; sourceTree = "<group>"; };
@@ -337,6 +339,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C1E111416403FE1006DF210 /* AVFoundation.framework in Frameworks */,
 				7C48F9BC15EE135F00DDA63D /* libGoogleAnalytics.a in Frameworks */,
 				7C48F92A15EE0F9C00DDA63D /* libfacebook_ios_sdk.a in Frameworks */,
 				7C48F9A915EE127B00DDA63D /* Twitter.framework in Frameworks */,
@@ -387,6 +390,7 @@
 				7C48F99A15EE121C00DDA63D /* Reachability.h */,
 				7C48F99B15EE121C00DDA63D /* Reachability.m */,
 				7C48F99C15EE123E00DDA63D /* libsqlite3.dylib */,
+				7C1E111316403FE1006DF210 /* AVFoundation.framework */,
 				7C48F9A815EE127B00DDA63D /* Twitter.framework */,
 				7C48F9A615EE127000DDA63D /* SystemConfiguration.framework */,
 				7C48F9A415EE126200DDA63D /* MediaPlayer.framework */,

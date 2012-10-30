@@ -123,6 +123,12 @@
 												 name:MPMoviePlayerPlaybackDidFinishNotification  
 											   object:[moviePlayerViewController moviePlayer]];
     
+    NSError *_error = nil;
+        
+    [[AVAudioSession sharedInstance] setCategory: AVAudioSessionCategoryPlayback error:&_error];
+        
+
+    
     [self presentMoviePlayerViewControllerAnimated:moviePlayerViewController];
     
 
