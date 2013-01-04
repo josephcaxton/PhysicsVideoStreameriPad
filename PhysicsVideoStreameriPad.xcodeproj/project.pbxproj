@@ -149,6 +149,15 @@
 		7C8F818A165E7094004511A6 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F8188165E7094004511A6 /* Icon-72@2x.png */; };
 		7C8F818D165E70A8004511A6 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F818B165E70A8004511A6 /* Icon-Small-50.png */; };
 		7C8F818E165E70A8004511A6 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C8F818C165E70A8004511A6 /* Icon-Small-50@2x.png */; };
+		7CD6D973169741B7004BCB15 /* GCSE-Physics-WJEC-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D96D169741B7004BCB15 /* GCSE-Physics-WJEC-Examination-Coverage.pdf */; };
+		7CD6D974169741B7004BCB15 /* GCSE-Physics-OCR-Gateway-B-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D96E169741B7004BCB15 /* GCSE-Physics-OCR-Gateway-B-Examination-Coverage.pdf */; };
+		7CD6D975169741B7004BCB15 /* GCSE-Physics-OCR-21st-Century-A-Examination Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D96F169741B7004BCB15 /* GCSE-Physics-OCR-21st-Century-A-Examination Coverage.pdf */; };
+		7CD6D976169741B7004BCB15 /* GCSE-Physics-Edexcel-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D970169741B7004BCB15 /* GCSE-Physics-Edexcel-Examination-Coverage.pdf */; };
+		7CD6D977169741B7004BCB15 /* GCSE-Physics-CCEA-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D971169741B7004BCB15 /* GCSE-Physics-CCEA-Examination-Coverage.pdf */; };
+		7CD6D978169741B7004BCB15 /* GCSE-Physics-AQA-Examination-Coverage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D972169741B7004BCB15 /* GCSE-Physics-AQA-Examination-Coverage.pdf */; };
+		7CD6D97E169741E2004BCB15 /* nav_btn_coverage_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D97D169741E2004BCB15 /* nav_btn_coverage_deselected.png */; };
+		7CD6D97F169742EB004BCB15 /* Coverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D97A169741D7004BCB15 /* Coverage.m */; };
+		7CD6D980169742EB004BCB15 /* CoverageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D97C169741D7004BCB15 /* CoverageViewer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -330,6 +339,17 @@
 		7C8F8188165E7094004511A6 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		7C8F818B165E70A8004511A6 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		7C8F818C165E70A8004511A6 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		7CD6D96D169741B7004BCB15 /* GCSE-Physics-WJEC-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Physics-WJEC-Examination-Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D96E169741B7004BCB15 /* GCSE-Physics-OCR-Gateway-B-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Physics-OCR-Gateway-B-Examination-Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D96F169741B7004BCB15 /* GCSE-Physics-OCR-21st-Century-A-Examination Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Physics-OCR-21st-Century-A-Examination Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D970169741B7004BCB15 /* GCSE-Physics-Edexcel-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Physics-Edexcel-Examination-Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D971169741B7004BCB15 /* GCSE-Physics-CCEA-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Physics-CCEA-Examination-Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D972169741B7004BCB15 /* GCSE-Physics-AQA-Examination-Coverage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "GCSE-Physics-AQA-Examination-Coverage.pdf"; sourceTree = "<group>"; };
+		7CD6D979169741D7004BCB15 /* Coverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coverage.h; sourceTree = "<group>"; };
+		7CD6D97A169741D7004BCB15 /* Coverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coverage.m; sourceTree = "<group>"; };
+		7CD6D97B169741D7004BCB15 /* CoverageViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoverageViewer.h; sourceTree = "<group>"; };
+		7CD6D97C169741D7004BCB15 /* CoverageViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverageViewer.m; sourceTree = "<group>"; };
+		7CD6D97D169741E2004BCB15 /* nav_btn_coverage_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_btn_coverage_deselected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +379,7 @@
 		7C48F8DB15EE0E6F00DDA63D = {
 			isa = PBXGroup;
 			children = (
+				7CD6D96B1697419E004BCB15 /* Files */,
 				7C48F91915EE0F9C00DDA63D /* facebook-ios-sdk */,
 				7C48F92B15EE0FA700DDA63D /* Analytics */,
 				7C48F92E15EE0FDB00DDA63D /* VideoImages */,
@@ -557,6 +578,10 @@
 				7C48F94215EE108400DDA63D /* HowtoUse.m */,
 				7C48F94315EE108400DDA63D /* PopUpTableviewViewController.h */,
 				7C48F94415EE108400DDA63D /* PopUpTableviewViewController.m */,
+				7CD6D979169741D7004BCB15 /* Coverage.h */,
+				7CD6D97A169741D7004BCB15 /* Coverage.m */,
+				7CD6D97B169741D7004BCB15 /* CoverageViewer.h */,
+				7CD6D97C169741D7004BCB15 /* CoverageViewer.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -581,6 +606,7 @@
 		7C48F95015EE10CC00DDA63D /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				7CD6D97D169741E2004BCB15 /* nav_btn_coverage_deselected.png */,
 				7C37D671162DA01C00122A88 /* btn_videos_deselected.png */,
 				7C48F95415EE10DE00DDA63D /* 60-signpost.png */,
 			);
@@ -642,6 +668,19 @@
 				7C8F818C165E70A8004511A6 /* Icon-Small-50@2x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		7CD6D96B1697419E004BCB15 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CD6D96D169741B7004BCB15 /* GCSE-Physics-WJEC-Examination-Coverage.pdf */,
+				7CD6D96E169741B7004BCB15 /* GCSE-Physics-OCR-Gateway-B-Examination-Coverage.pdf */,
+				7CD6D96F169741B7004BCB15 /* GCSE-Physics-OCR-21st-Century-A-Examination Coverage.pdf */,
+				7CD6D970169741B7004BCB15 /* GCSE-Physics-Edexcel-Examination-Coverage.pdf */,
+				7CD6D971169741B7004BCB15 /* GCSE-Physics-CCEA-Examination-Coverage.pdf */,
+				7CD6D972169741B7004BCB15 /* GCSE-Physics-AQA-Examination-Coverage.pdf */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -804,6 +843,13 @@
 				7C8F818A165E7094004511A6 /* Icon-72@2x.png in Resources */,
 				7C8F818D165E70A8004511A6 /* Icon-Small-50.png in Resources */,
 				7C8F818E165E70A8004511A6 /* Icon-Small-50@2x.png in Resources */,
+				7CD6D973169741B7004BCB15 /* GCSE-Physics-WJEC-Examination-Coverage.pdf in Resources */,
+				7CD6D974169741B7004BCB15 /* GCSE-Physics-OCR-Gateway-B-Examination-Coverage.pdf in Resources */,
+				7CD6D975169741B7004BCB15 /* GCSE-Physics-OCR-21st-Century-A-Examination Coverage.pdf in Resources */,
+				7CD6D976169741B7004BCB15 /* GCSE-Physics-Edexcel-Examination-Coverage.pdf in Resources */,
+				7CD6D977169741B7004BCB15 /* GCSE-Physics-CCEA-Examination-Coverage.pdf in Resources */,
+				7CD6D978169741B7004BCB15 /* GCSE-Physics-AQA-Examination-Coverage.pdf in Resources */,
+				7CD6D97E169741E2004BCB15 /* nav_btn_coverage_deselected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -814,6 +860,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD6D97F169742EB004BCB15 /* Coverage.m in Sources */,
+				7CD6D980169742EB004BCB15 /* CoverageViewer.m in Sources */,
 				7C37D678162DA0BC00122A88 /* TransparentToolBar.m in Sources */,
 				7C37D677162DA0AD00122A88 /* UnderlinedButton.m in Sources */,
 				7C48F9AA15EE12E600DDA63D /* ConfigObject.m in Sources */,
