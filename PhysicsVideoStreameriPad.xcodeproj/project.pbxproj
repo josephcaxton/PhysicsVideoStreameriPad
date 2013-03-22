@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7C1E111416403FE1006DF210 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1E111316403FE1006DF210 /* AVFoundation.framework */; };
-		7C37D648162D9F8300122A88 /* website_promo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D63B162D9F8100122A88 /* website_promo.png */; };
-		7C37D649162D9F8300122A88 /* website_promo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D63C162D9F8200122A88 /* website_promo@2x.png */; };
 		7C37D64A162D9F8300122A88 /* web_promo_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D63D162D9F8200122A88 /* web_promo_btn.png */; };
 		7C37D64B162D9F8300122A88 /* buy_now.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D63E162D9F8200122A88 /* buy_now.png */; };
 		7C37D64C162D9F8300122A88 /* buy_now@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D63F162D9F8200122A88 /* buy_now@2x.png */; };
@@ -39,7 +37,6 @@
 		7C37D677162DA0AD00122A88 /* UnderlinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C37D674162DA03100122A88 /* UnderlinedButton.m */; };
 		7C37D678162DA0BC00122A88 /* TransparentToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C37D676162DA03100122A88 /* TransparentToolBar.m */; };
 		7C37D67F162DA28E00122A88 /* LearnersCloudTermsonapps.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D67D162DA28E00122A88 /* LearnersCloudTermsonapps.pdf */; };
-		7C37D680162DA28E00122A88 /* HowtouseVideoStreamer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C37D67E162DA28E00122A88 /* HowtouseVideoStreamer.pdf */; };
 		7C48F8EB15EE0E7000DDA63D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C48F8EA15EE0E7000DDA63D /* UIKit.framework */; };
 		7C48F8ED15EE0E7000DDA63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C48F8EC15EE0E7000DDA63D /* Foundation.framework */; };
 		7C48F8EF15EE0E7000DDA63D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C48F8EE15EE0E7000DDA63D /* CoreGraphics.framework */; };
@@ -158,12 +155,13 @@
 		7CD6D97E169741E2004BCB15 /* nav_btn_coverage_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6D97D169741E2004BCB15 /* nav_btn_coverage_deselected.png */; };
 		7CD6D97F169742EB004BCB15 /* Coverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D97A169741D7004BCB15 /* Coverage.m */; };
 		7CD6D980169742EB004BCB15 /* CoverageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD6D97C169741D7004BCB15 /* CoverageViewer.m */; };
+		7CEA7D0C16FC626000DB5C0B /* website_promo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA7D0A16FC626000DB5C0B /* website_promo.png */; };
+		7CEA7D0D16FC626000DB5C0B /* website_promo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA7D0B16FC626000DB5C0B /* website_promo@2x.png */; };
+		7CEA7D0F16FC62CE00DB5C0B /* HowtouseVideoStreamer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CEA7D0E16FC62CE00DB5C0B /* HowtouseVideoStreamer.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C1E111316403FE1006DF210 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		7C37D63B162D9F8100122A88 /* website_promo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = website_promo.png; sourceTree = "<group>"; };
-		7C37D63C162D9F8200122A88 /* website_promo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "website_promo@2x.png"; sourceTree = "<group>"; };
 		7C37D63D162D9F8200122A88 /* web_promo_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web_promo_btn.png; sourceTree = "<group>"; };
 		7C37D63E162D9F8200122A88 /* buy_now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_now.png; sourceTree = "<group>"; };
 		7C37D63F162D9F8200122A88 /* buy_now@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy_now@2x.png"; sourceTree = "<group>"; };
@@ -195,7 +193,6 @@
 		7C37D675162DA03100122A88 /* TransparentToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransparentToolBar.h; sourceTree = "<group>"; };
 		7C37D676162DA03100122A88 /* TransparentToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentToolBar.m; sourceTree = "<group>"; };
 		7C37D67D162DA28E00122A88 /* LearnersCloudTermsonapps.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = LearnersCloudTermsonapps.pdf; sourceTree = "<group>"; };
-		7C37D67E162DA28E00122A88 /* HowtouseVideoStreamer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HowtouseVideoStreamer.pdf; sourceTree = "<group>"; };
 		7C48F8E615EE0E7000DDA63D /* GCSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C48F8EA15EE0E7000DDA63D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7C48F8EC15EE0E7000DDA63D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -350,6 +347,9 @@
 		7CD6D97B169741D7004BCB15 /* CoverageViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoverageViewer.h; sourceTree = "<group>"; };
 		7CD6D97C169741D7004BCB15 /* CoverageViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverageViewer.m; sourceTree = "<group>"; };
 		7CD6D97D169741E2004BCB15 /* nav_btn_coverage_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_btn_coverage_deselected.png; sourceTree = "<group>"; };
+		7CEA7D0A16FC626000DB5C0B /* website_promo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = website_promo.png; sourceTree = "<group>"; };
+		7CEA7D0B16FC626000DB5C0B /* website_promo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "website_promo@2x.png"; sourceTree = "<group>"; };
+		7CEA7D0E16FC62CE00DB5C0B /* HowtouseVideoStreamer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HowtouseVideoStreamer.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -547,7 +547,7 @@
 				7C79445015EE5342009A2EAE /* 69.png */,
 				7C79445115EE5342009A2EAE /* 70.png */,
 				7C37D67D162DA28E00122A88 /* LearnersCloudTermsonapps.pdf */,
-				7C37D67E162DA28E00122A88 /* HowtouseVideoStreamer.pdf */,
+				7CEA7D0E16FC62CE00DB5C0B /* HowtouseVideoStreamer.pdf */,
 			);
 			name = VideoImages;
 			sourceTree = "<group>";
@@ -634,9 +634,9 @@
 		7C48F96B15EE111300DDA63D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7C37D63B162D9F8100122A88 /* website_promo.png */,
-				7C37D63C162D9F8200122A88 /* website_promo@2x.png */,
 				7C37D63D162D9F8200122A88 /* web_promo_btn.png */,
+				7CEA7D0A16FC626000DB5C0B /* website_promo.png */,
+				7CEA7D0B16FC626000DB5C0B /* website_promo@2x.png */,
 				7C37D63E162D9F8200122A88 /* buy_now.png */,
 				7C37D63F162D9F8200122A88 /* buy_now@2x.png */,
 				7C37D640162D9F8200122A88 /* free.png */,
@@ -809,8 +809,6 @@
 				7C79449515EE5342009A2EAE /* 68.png in Resources */,
 				7C79449615EE5342009A2EAE /* 69.png in Resources */,
 				7C79449715EE5342009A2EAE /* 70.png in Resources */,
-				7C37D648162D9F8300122A88 /* website_promo.png in Resources */,
-				7C37D649162D9F8300122A88 /* website_promo@2x.png in Resources */,
 				7C37D64A162D9F8300122A88 /* web_promo_btn.png in Resources */,
 				7C37D64B162D9F8300122A88 /* buy_now.png in Resources */,
 				7C37D64C162D9F8300122A88 /* buy_now@2x.png in Resources */,
@@ -838,7 +836,6 @@
 				7C37D670162D9FFF00122A88 /* icon_share_on_facebook.png in Resources */,
 				7C37D672162DA01C00122A88 /* btn_videos_deselected.png in Resources */,
 				7C37D67F162DA28E00122A88 /* LearnersCloudTermsonapps.pdf in Resources */,
-				7C37D680162DA28E00122A88 /* HowtouseVideoStreamer.pdf in Resources */,
 				7C8F8189165E7094004511A6 /* Icon-72.png in Resources */,
 				7C8F818A165E7094004511A6 /* Icon-72@2x.png in Resources */,
 				7C8F818D165E70A8004511A6 /* Icon-Small-50.png in Resources */,
@@ -850,6 +847,9 @@
 				7CD6D977169741B7004BCB15 /* GCSE-Physics-CCEA-Examination-Coverage.pdf in Resources */,
 				7CD6D978169741B7004BCB15 /* GCSE-Physics-AQA-Examination-Coverage.pdf in Resources */,
 				7CD6D97E169741E2004BCB15 /* nav_btn_coverage_deselected.png in Resources */,
+				7CEA7D0C16FC626000DB5C0B /* website_promo.png in Resources */,
+				7CEA7D0D16FC626000DB5C0B /* website_promo@2x.png in Resources */,
+				7CEA7D0F16FC62CE00DB5C0B /* HowtouseVideoStreamer.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
