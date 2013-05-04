@@ -21,7 +21,7 @@
     [super viewDidLoad];
     
     self.navigationItem.title = @"Help";
-	
+    
     UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(0,0,185,55)];
     label.textColor = [UIColor whiteColor];
     label.backgroundColor = [UIColor clearColor];
@@ -40,6 +40,7 @@
 	// Add items to the array this is hardcoded for now .. may need to be migrated to the database
 	[listofItems addObject:@"How to use this app"];
     [listofItems addObject:@"Terms and Conditions"];
+    [listofItems addObject:@"Report Problem"];
     
     FirstViewframe = CGRectMake(0 ,0, SCREEN_WIDTH, SCREEN_HEIGHT);
     self.FirstTable = [[UITableView alloc] initWithFrame:FirstViewframe style:UITableViewStyleGrouped];
@@ -53,6 +54,7 @@
     self.view.backgroundColor = [UIColor colorWithPatternImage:BackImage];
     [self.view addSubview:FirstTable];
     
+	
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -65,6 +67,9 @@
     
     
 }
+
+
+
 
 
 
@@ -83,6 +88,7 @@
         
 		return 1;
 	}
+    
     
     
     
@@ -180,11 +186,20 @@
                 
                 break; 
             }
+            case 2:
+            {
+                ;
+                [self ReportProblem:self] ;
+                
+                break;
+            }
+                
                 
         }
         
     }
 }
+
 
 - (void)WebsitebuttonPressed {
     
@@ -192,6 +207,52 @@
     
 }
 
+-(IBAction)ReportProblem:(id)sender{
+	
+	if ([MFMailComposeViewController canSendMail]) {
+        
+        NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+        NSString *DeviceID = [prefs stringForKey:@"LCUIID"];
+        
+        NSArray *SendTo = [NSArray arrayWithObjects:@"support@LearnersCloud.com",nil];
+        
+        MFMailComposeViewController *SendMailcontroller = [[MFMailComposeViewController alloc]init];
+        SendMailcontroller.mailComposeDelegate = self;
+        [SendMailcontroller setToRecipients:SendTo];
+        [SendMailcontroller setSubject:[NSString stringWithFormat:@"%@ Physics video streaming iPad",DeviceID]];
+        
+        [SendMailcontroller setMessageBody:[NSString stringWithFormat:@"Add Message here "] isHTML:NO];
+        [self presentModalViewController:SendMailcontroller animated:YES];
+        
+		
+	}
+	
+	else {
+		UIAlertView *Alert = [[UIAlertView alloc] initWithTitle: @"Cannot send mail"
+                                                        message: @"Device is unable to send email in its current state. Configure email" delegate: self
+                                              cancelButtonTitle: @"Ok" otherButtonTitles: nil];
+		
+		
+		
+		[Alert show];
+		
+		
+	}
+    
+	
+}
+
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error{
+	
+	
+	[self becomeFirstResponder];
+	[self dismissModalViewControllerAnimated:YES];
+	
+	
+	
+	
+}
 
 
 
