@@ -25,7 +25,7 @@ static NSString* const kAnalyticsAccountId = @"UA-34413575-1";
 
 @synthesize window;
 @synthesize tabBarController;
-@synthesize SecondThread,SelectProductID,buyScreen,DomainName,SubscriptionStatusData,PassageFlag,EmailFlag,UserEmail,DoesUserHaveEmail,AccessAll,m_facebook;
+@synthesize SecondThread,SelectProductID,buyScreen,DomainName,SubscriptionStatusData,PassageFlag,EmailFlag,UserEmail,DoesUserHaveEmail,AccessAll,m_facebook,FlagToLoginOrLogout;
 
 #define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
 
@@ -49,7 +49,9 @@ static NSString* const kAnalyticsAccountId = @"UA-34413575-1";
     SecondThread = nil;
     DomainName = @"https://learnerscloud.com";
     
-    
+    // This flag 0 = do nothing  1= login  2 = logout
+    FlagToLoginOrLogout = [NSNumber numberWithInteger:0];
+
     //[window addSubview: tabBarController.view];
     [window setRootViewController:tabBarController];
 	[window makeKeyAndVisible];
@@ -520,9 +522,9 @@ static NSString* const kAnalyticsAccountId = @"UA-34413575-1";
     
    // NSString *DeviceUDID = [NSString stringWithFormat:@"%@",[UIDevice currentDevice].uniqueIdentifier];
     // We don't support notifiation on < ios any more
-    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"6.0")){
+    //if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"6.0")){
 
-     NSString *DeviceUDID = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+     NSString *DeviceUDID = @"Deprecated"; //[[[UIDevice currentDevice] identifierForVendor] UUIDString];
     
     NSString *DeviceTokenRemoveCh1 = [[deviceToken description] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
     
@@ -543,7 +545,7 @@ static NSString* const kAnalyticsAccountId = @"UA-34413575-1";
         
     }
     }
-}
+//}
 
 - (void)application:(UIApplication *)app didFailToRegisterForRemoteNotificationsWithError:(NSError *)err {
     
