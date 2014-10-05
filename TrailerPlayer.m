@@ -66,6 +66,8 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
+    
+    if (!moviePlayerViewController){
 	
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     
@@ -145,6 +147,7 @@
         
         [self.navigationController popViewControllerAnimated:YES];
         
+    }
     }
 }
 
